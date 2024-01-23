@@ -1,38 +1,2662 @@
-.App {
-  text-align: center;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/antd/4.21.7/antd.min.css");
+/* Header CSS Start Here */
+@media (min-width: 1200px) {
+    .shortsMakerReactjs header#masthead.site-header {
+        max-width: 1184px !important;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link.active {
+
+    font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a.nav-link {
+    font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+    font-size: 27px;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+    font-size: 45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+    font-size: 35px;
+}
+
+
+
+/* login button styles */
+button.ytConnect img {
+    width: 100px;
+    margin: 0 auto;
+}
+
+button.ytConnect {
+    font-weight: 500;
+}
+
+/* end of login button styles */
+
+/* Compare list styles start here */
+.comparisonMainHeadWrapper .mainFeatureHeading {
+    display: flex;
+}
+
+.subFeaturesWrapper .subFeaturesRow {
+    display: flex;
+}
+
+.mainInner {
+    width: 25%;
+}
+
+.subFeaturesWrapper {
+    width: 75%;
+}
+
+.subFeatureTitle {
+    width: 70%;
+}
+
+.subFeaturessembleTick {
+    width: 10%;
+}
+
+.subFeatureOtherTick {
+    width: 10%;
+}
+
+.compareListingWrapper p {
+    padding: 0 !important;
+    margin: 15px !important;
+}
+
+/* compare list styles end here */
+
+.page-template-template-shorts-react .vlog_tool_wrapper {
+    padding-bottom: 0 !important;
+}
+
+.shortsSectionWrapper p {
+    color: #1b1a23;
+    font-size: 18px;
+    line-height: 1.6;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 20px 0 40px;
+    letter-spacing: 0px;
+}
+
+.underHeroheading p {
+    text-align: center;
+    font-size: 16px;
+}
+
+span.ssregular_pricess_strike {
+    text-decoration: line-through;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+span.ss_sale_price {
+    color: #ff5c00;
+}
+
+.shortsMakerButtonWrap .spinner-border {
+    margin-right: 10px;
+}
+
+.btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn {
+    pointer-events: none !important;
+    opacity: 0.25 !important;
+}
+
+.main-navigation .addtionalButtonsData {
+    display: flex;
+    align-items: center;
+    grid-gap: 53px;
+    margin-right: 24px;
+}
+
+.main-navigation .addtionalButtonsData .ss_plan_mintues {
+    display: flex;
+    align-items: center;
+    grid-gap: 0 10px;
+}
+
+.main-navigation .addtionalButtonsData .ss_plan_mintues .progress {
+    width: 58px;
+    height: 5px;
+    margin: 0;
+}
+
+.shortsMakerReactjs .main-navigation {
+    justify-content: flex-end;
+    margin: 20px 0px 0px 0px;
+}
+
+.top-bar #top-menu {
+    padding-right: 20px;
+}
+
+.progress.bg-success {
+    background-color: #1985534d !important;
+}
+
+.progress.bg-danger {
+    background-color: #ffd3d3 !important;
+}
+
+.main-navigation .addtionalButtonsData .ss_plan_mintues .planTitle {
+    color: #7d7d7d;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.main-navigation .addtionalButtonsData .ss_plan_mintues .planTime {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.loading-sec.loadingSpinnerShorts {
+    text-align: center;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.main-navigation .addtionalButtonsData .ss_plan_mintues .planTime.danger {
+    color: #ff2424;
+}
+
+.main-navigation .addtionalButtonsData .ss_plan_mintues span.planTime.success {
+    color: #198754;
+}
+
+.FeedbackContentRepeat h3,
+.vidoesThumbWrapper h3 {
+    font-weight: 700 !important;
+}
+
+.aishorts-content h3 a {
+    color: #000;
+}
+
+.main-navigation .addtionalButtonsData button.ss_gradient {
+    border-radius: 6px;
+    background: linear-gradient(93deg,
+            #ff603c 0%,
+            #8558fc 73.19%,
+            #0116d1 113.18%);
+    color: #fff;
+    text-align: center;
+    font-family: "SF Compact Display" !important;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.32px;
+    min-height: 40px;
+    min-width: 174px;
+    line-height: 1;
+    border-style: none;
+    padding: 0;
+    transition: all 0.5s ease;
+}
+
+ul.worksBestTalkingVideos {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-auto-flow: column;
+}
+
+/* Header CSS Close Here */
+.accordion-collapse.collapse.show {
+    visibility: visible;
+}
+
+.page-template-template-shorts-react .ModalWrapper .pricing-tab-card.free {
+    display: block !important;
+}
+
+/* Non Logged In View CSS Start Here */
+
+span.lazy-load-image-background.lazy-load-image-loaded {
+    max-width: 100%;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields input.youtubeChannel {
+    border-radius: 8px;
+    background-color: #f1f2f4;
+    border: 1px solid #f1f2f4;
+    box-shadow: none;
+    min-height: 48px;
+    padding: 0 180px 0 15px;
+    font-family: "Noto Sans", sans-serif !important;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields input.youtubeChannel::placeholder {
+    color: #c3c3c3;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields .shortsMakerButtonIsClicked {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+    border-radius: 8px;
+    opacity: 1;
+    background-color: #3782f7;
+    width: 168px;
+    color: #fff;
+    text-align: center;
+    font-family: Helvetica !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    border-style: none;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields .shortsMakerButtonIsClicked:hover {
+    background-color: #0f6dec;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields label#youtubeChannel-error {
+    bottom: -28px !important;
+    font-family: "Noto Sans", sans-serif !important;
+}
+
+.shortsSectionWrapper .faqWrapper h4 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+
+.shortsSectionWrapper .faqWrapper .accordion-item {
+    border-style: none;
+}
+
+.shortsSectionWrapper .faqWrapper .accordion-item:not(:last-child) {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.shortsSectionWrapper .faqWrapper .accordion-item .accordion-header .accordion-button {
+    border-style: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 20px 0;
+    color: #000;
+    font-size: 18px;
+    font-family: "Canva Sans" !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.shortsSectionWrapper .faqWrapper .accordion-item .accordion-header .accordion-button:hover {
+    color: #3782f7;
+}
+
+.accordion-button::after {
+    transform: rotate(180deg);
+}
+
+.shortsSectionWrapper .faqWrapper .accordion-item .accordion-body {
+    padding: 0 0 15px 0;
+    color: #6a6a6a;
+    font-family: "Canva Sans" !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.freeSapmleClipsWrapper .formShortcode .formInputFields input.youtubeChannel {
+    background-color: #fff;
+}
+
+@media (max-width: 991px) {
+    .shortsSectionWrapper .formShortcode .formInputFields .shortsMakerButtonIsClicked {
+        width: 135px;
+        font-size: 14px;
+    }
+
+    .shortsSectionWrapper .formShortcode .formInputFields input.youtubeChannel {
+        padding: 0 140px 0 10px;
+    }
+}
+
+@media (max-width: 420px) {
+    .shortsSectionWrapper .formShortcode .formInputFields .shortsMakerButtonIsClicked {
+        width: 100%;
+        position: static;
+        margin-top: 10px;
+        padding: 12px;
+    }
+
+    .shortsSectionWrapper .formShortcode .formInputFields input.youtubeChannel {
+        padding: 0 10px;
+    }
+}
+
+/* Non Logged In View CSS Clsoe Here  */
+/* Logged In View CSS Start Here  */
+.loginGenerateShortsWrapper .formShortcode .formInputFields input.youtubeChannel {
+    box-shadow: none;
+}
+
+.loginGenerateShortsWrapper .formShortcode .formInputFields .submitField .shortsMakerButtonIsClicked {
+    border-radius: 10px;
+    background-color: #3782f7;
+    border-style: none;
+    width: 271px;
+    height: 48px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    margin: 40px auto;
+    transition: all 0.7s ease;
+}
+
+.loginGenerateShortsWrapper .formShortcode .formInputFields .submitField .shortsMakerButtonIsClicked:hover {
+    background-color: #0f6dec;
+}
+
+
+
+.loginGenerateShortsWrapper .loginGeneratorShortsContentBox .shortsMakersTalkingVideos .worksBestTalkingVideos li {
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center left;
+    padding-left: 28px;
+    margin-bottom: 5px;
+}
+
+.loginGenerateShortsWrapper .shortsRangeError {
+    color: #f00000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif !important;
+    line-height: 1.5;
+    max-width: 435px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.page-template-template-shorts-react .ss_modal.modal .pricing-heading {
+    display: flex;
+    align-items: center;
+}
+
+.page-template-template-shorts-react .fade.ss_modal.modal .modal-dialog .modal-content .pricing-heading h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.page-template-template-shorts-react .fade.ss_modal.modal .modal-dialog .modal-content .pricing-btn {
+    padding: 0;
+}
+
+.tools-heading .shortMaker-heading {
+    color: #000;
+    text-align: center;
+    font-family: Helvetica !important;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60.5px;
+    margin-bottom: 8px;
+    letter-spacing: 0;
+}
+
+.tools-heading .shortmakerSub-heading {
+    color: #000;
+    text-align: center;
+    font-family: Helvetica !important;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0;
+}
+
+.loginGenerateShortsWrapper .youtube-down-con .percentage-text {
+    color: #979797;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.loginGenerateShortsWrapper .youtube-down-con p.shortsLoadingLabel {
+    color: #979797;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.loginGenerateShortsWrapper .youtube-down-con .secondary-btn button {
+    border-radius: 10px;
+    background: #f1f2f4;
+    border-style: none;
+    width: 271px;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+    color: #626262;
+    text-align: center;
+    font-family: Helvetica !important;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.loginGenerateShortsWrapper .shortsImageWrapper {
+    margin-top: 50px;
+}
+
+.loginGenerateShortsWrapper .shortsImageWrapper img {
+    width: 435px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.loginGenerateShortsWrapper .youtube-down-con .secondary-btn button:hover {
+    background: #ccc;
+    color: #fff;
+}
+
+.loginGenerateShortsWrapper .loginGeneratorThumbnail.shortsChildContainer figure img {
+    border-radius: 8px;
+}
+
+@media (max-width: 575px) {
+    .loginGenerateShortsWrapper .formShortcode .formInputFields .submitField .shortsMakerButtonIsClicked {
+        width: 100%;
+        font-size: 16px;
+        height: 40px;
+    }
+
+    .loginGenerateShortsWrapper .youtube-down-con .secondary-btn button {
+        width: 100%;
+    }
+
+    .tools-heading .shortMaker-heading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .tools-heading .shortmakerSub-heading,
+    .loginGenerateShortsWrapper .youtube-down-con p.shortsLoadingLabel {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .loginGenerateShortsWrapper .loginGeneratorShortsContainer .container {
+        padding: 0;
+    }
+}
+
+/* Logged In View CSS Close Here  */
+
+/* Shorts Popup CSS Start Here */
+.page-template-template-shorts-react .fade.ss_modal.modal::-webkit-scrollbar {
+    display: none;
+}
+
+.page-template-template-shorts-react .fade.ss_modal.modal {
+    padding-right: 0 !important;
+}
+
+.page-template-template-shorts-react .fade.ss_modal.modal .modal-dialog {
+    max-width: 875px;
+    border-radius: 16px;
+}
+
+.page-template-template-shorts-react .fade.ss_modal.modal .modal-dialog .modal-content {
+    padding: 30px 40px 30px 25px;
+}
+
+.page-template-template-shorts-react .ModalWrapper .pricing-tab-content.ssembleYtDownloaderPrice {
+    margin: 15px 0 0 !important;
+    max-width: 100%;
+}
+
+.page-template-template-shorts-react .ModalWrapper {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.page-template-template-shorts-react .ModalWrapper .leftContent {
+    margin-top: 100px;
+}
+
+.page-template-template-shorts-react .ModalWrapper .ssPricingTableWrapper {
+    padding-top: 0;
+}
+
+.page-template-template-shorts-react .ModalWrapper .pricing-tab-content .nav.nav-tabs {
+    margin: 0 auto 30px;
+    max-width: 175px;
+}
+
+.page-template-template-shorts-react .ModalWrapper .pricing-tab-content .nav.nav-tabs li.nav-item button {
+    padding: 9px 17px;
+}
+
+.page-template-template-shorts-react .ModalWrapper .pricing-tab-content .nav.nav-tabs li.nav-item .save-up span {
+    background-color: transparent;
+    position: static !important;
+    padding: 0 !important;
+    width: fit-content;
+    max-width: 100%;
+    color: #fe8000;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 0;
+    display: inline;
+}
+
+.page-template-template-shorts-react .ModalWrapper .pricing-tab-content .nav.nav-tabs li.nav-item .save-up span::before {
+    display: none;
+}
+
+.page-template-template-shorts-react .ModalWrapper .pricing-tab-content .nav.nav-tabs li.nav-item .save-up {
+    right: 0;
+    left: auto;
+    position: absolute;
+    transform: translatex(0);
+    width: fit-content;
+    top: -24px;
+    text-align: right;
+}
+
+.page-template-template-shorts-react .ModalWrapper .leftContent .shortsClipsWrapper img {
+    max-width: 62px;
+}
+
+.page-template-template-shorts-react .ModalWrapper .leftContent .shortsClipsWrapper .shortsClipHeading {
+    color: #000;
+    font-family: "SF Compact Display" !important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    margin: 20px 0 50px;
+}
+
+.page-template-template-shorts-react .ModalWrapper .leftContent .shortsClipsWrapper .shortsClipContent {
+    color: #7d7d7d;
+    font-family: "SF Compact Display" !important;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 457;
+    line-height: 138%;
+    width: 80%;
+}
+
+.page-template-template-shorts-react .fade.ss_modal.modal .modal-dialog .ssemblePricingWrapperInner {
+    min-height: 85px;
+}
+
+/******************/
+.customRadioBtnGroup {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.customRadioBtns.form-check {
+    position: relative;
+    padding: 4px 4px 0px 0px;
+}
+
+.customRadioBtns input[type="radio"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.customRadioBtns label {
+    border-radius: 9px;
+    padding: 9px 8px;
+    background: #f0f1f2;
+    color: #636363;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    border-style: none;
+}
+
+.customRadioBtns input[type="radio"]:checked+label,
+customRadioBtns input[type="radio"]:hover+label {
+    background: #f0f6ff;
+    color: #3782f7;
+}
+
+/* Popup Responsive */
+@media (max-width: 991px) {
+    .page-template-template-shorts-react .ModalWrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 40px 0;
+    }
+
+    .page-template-template-shorts-react .ModalWrapper .leftContent {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .page-template-template-shorts-react .ModalWrapper .leftContent .shortsClipsWrapper .shortsClipHeading {
+        margin: 15px 0 30px;
+    }
+
+    .page-template-template-shorts-react .ModalWrapper .leftContent .shortsClipsWrapper .shortsClipContent {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .page-template-template-shorts-react .fade.ss_modal.modal .modal-dialog .modal-content {
+        padding: 30px 20px;
+    }
+
+    .page-template-template-shorts-react .fade.ss_modal.modal .ssPricingTableWrapper .pricing-tab-card .pricing-list ul {
+        margin: 0;
+    }
+
+    .page-template-template-shorts-react .fade.ss_modal.modal .modal-dialog .ssemblePricingWrapperInner {
+        min-height: fit-content;
+    }
+}
+
+@media (max-width: 360px) {
+    .page-template-template-shorts-react .ModalWrapper .pricing-tab-content.ssembleYtDownloaderPrice .pricing-tab-card {
+        margin: 16px 0 !important;
+    }
+}
+
+/* Shorts Popup CSS Close Here */
+/* Pro User Popup CSS start Here */
+.fade.ss_modal.modal.proUserPopup .modal-dialog .modal-content {
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 80px;
+    padding: 18px 15px;
+    max-width: 600px;
+}
+
+.fade.ss_modal.modal.proUserPopup .modal-dialog .modal-content .modal-body p {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145.053%;
+    font-family: "Noto Sans", sans-serif !important;
+    text-align: center;
+}
+
+.fade.ss_modal.modal.proUserPopup .modal-dialog .modal-content .modal-header {
+    top: 5px;
+    right: 5px;
+}
+
+.fade.ss_modal.modal.proUserPopup .modal-dialog .modal-content .modal-header button.btn-close {
+    filter: brightness(0) invert(1);
+    opacity: 1;
+}
+
+.fade.ss_modal.modal.proUserPopup .modal-dialog .modal-content .modal-body p a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.fade.ss_modal.modal.proUserPopup .modal-dialog .modal-content .modal-body p a:hover {
+    color: #0d6efd;
+}
+
+/* Pro User Popup CSS Close Here */
+
+/* Shorts Page CSS Are Start Here */
+/* Shorts Page Header CSS Are Start Here */
+.page-template-template-shorts header#masthead {
+    justify-content: space-between;
+    max-width: 1140px !important;
+}
+
+.page-template-template-shorts header#masthead #top-menu {
+    display: flex;
+    align-items: center;
+}
+
+.page-template-template-shorts header#masthead>* {
+    flex: 1;
+    float: none;
+}
+
+.page-template-template-shorts header#masthead .main-navigation {
+    justify-content: flex-end;
+}
+
+.page-template-template-shorts header#masthead div#site-logo img {
+    max-width: 250px;
+}
+
+/* Shorts Page Header CSS Are Close Here */
+/* Shorts Page Hero CSS Are Start Here */
+
+.submitField.submitting:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    border: 4px solid #fff;
+    border-bottom-color: #ff3d00;
+    border-radius: 50%;
+    display: inline-block;
+    animation: rotation 1s linear infinite;
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
+    z-index: 55;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.submitField.submitting {
+    position: relative;
+}
+
+.submitField.submitting input[type="submit"] {
+    font-size: 0px !important;
+    opacity: 0.3;
+}
+
+.shortsSectionWrapper {
+    padding: 120px 0 0;
+}
+
+.shortsSectionWrapper .shorts-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.shortsSectionWrapper .HeroSectionWrapper .shortsHeroInnerWrapper {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.shortsSectionWrapper .HeroSectionWrapper .shortsHeroInnerWrapper .left_section {
+    flex: 1;
+}
+
+.shortsSectionWrapper .HeroSectionWrapper .shortsHeroInnerWrapper .right_section {
+    width: 41.8%;
+}
+
+.shortsSectionWrapper .HeroSectionWrapper .shortsHeroInnerWrapper .imageWrapper {
+    width: 100%;
+}
+
+.shortsSectionWrapper .HeroSectionWrapper .shortsHeroInnerWrapper .left_section h1 {
+    color: #1b1a23;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: -2px;
+    margin: 0;
+}
+
+.shortsSectionWrapper .HeroSectionWrapper .shortsHeroInnerWrapper .left_section p {
+    color: #1b1a23;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 20px 0 40px;
+    letter-spacing: 0px;
+}
+
+.shortsSectionWrapper input:focus {
+    outline: none;
+}
+
+.shortsSectionWrapper .formShortcode .formFieldsGroup label {
+    color: #1b1a23;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0 0 5px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.shortsSectionWrapper .HeroSectionWrapper .shortsHeroInnerWrapper .shortsFormWrappr label.error {
+    color: #ff0022;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    position: absolute;
+    margin: 5px 0 0;
+    bottom: -30px;
+    left: 0;
+}
+
+.shortsSectionWrapper .formShortcode {
+    min-height: 80px;
+    position: relative;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields .inputField {
+    flex: 1;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields .submitField {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 165px;
+    width: 100%;
+    text-align: right;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields .inputField input {
+    border-radius: 8px;
+    background: #f1f2f4;
+    width: 100%;
+    min-height: 48px;
+    display: block;
+    border: 3px solid #f1f2f4 !important;
+    padding: 0 170px 0 15px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "Noto Sans", sans-serif !important;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields .inputField input::placeholder {
+    color: #c3c3c3;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields .submitField input[type="submit"] {
+    border-radius: 8px;
+    background: #3782f7;
+    width: 100%;
+    min-height: 48px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0;
+    padding: 0;
+    border-style: none;
+    box-shadow: none;
+    transition: all 0.7s ease;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields .submitField input[type="submit"]:hover {
+    background: #0f6dec;
+}
+
+/* Shorts Page Hero CSS Are Close Here */
+/* Shorts Page Under Hero CSS Are Start Here */
+
+.shortsSectionWrapper .underHeroWrapper .underHeroInner {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.shortsSectionWrapper .underHeroWrapper .underHeroheading h2 {
+    color: #1b1a23;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.shortsSectionWrapper .underHeroWrapper .underHeroImgGroup {
+    display: flex;
+    justify-content: center;
+    grid-gap: 32px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.shortsSectionWrapper .underHeroWrapper .underHeroImgGroup .underHeroImage {
+    width: calc(33.3% - 32px);
+}
+
+.shortsSectionWrapper .underHeroWrapper .underHeroImgGroup .underHeroImage img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* Shorts Page Under Hero CSS Are Close Here */
+/* Shorts Page Videos Thumb Img CSS Are Start Here */
+
+.multipleVideosThumbnailWrapper {
+    text-align: center;
+}
+
+.shortsSectionWrapper .multipleVideosThumbnailWrapper {
+    background: linear-gradient(180deg,
+            #f2f5f9 35.08%,
+            rgba(242, 245, 249, 0) 88.95%);
+    padding: 100px 0 20px;
+    margin-top: 100px;
+}
+
+/* .shortsSectionWrapper .multipleVideosThumbnailWrapper .vidoesThumbWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 60px;
+    flex-wrap: wrap;
+} */
+.shortsSectionWrapper .multipleVideosThumbnailWrapper .vidoesThumbWrapper:not(:last-child) {
+    /* margin-bottom: 60px; */
+}
+
+.shortsSectionWrapper .multipleVideosThumbnailWrapper .vidoesThumbWrapper>* {
+    flex: 1;
+}
+
+.shortsSectionWrapper .multipleVideosThumbnailWrapper .vidoesThumbWrapper .videoThumbContent h2 {
+    color: #1b1a23;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0.45px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.shortsSectionWrapper .multipleVideosThumbnailWrapper .vidoesThumbWrapper .videoThumbContent p {
+    color: #1b1a23;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+}
+
+/* Shorts Page Videos Thumb Img CSS Are Close Here */
+/* Shorts Page Streamline shorts making CSS Are Start Here */
+.shortsSectionWrapper .straemlineShortsMakingWrapper {
+    padding-top: 0px;
+    text-align: center;
+}
+
+.straemlineShortsMakingWrapper .streamLineShortsheading {
+    padding-bottom: 40px;
+}
+
+.shortsSectionWrapper h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.shortsSectionWrapper .straemlineShortsMakingWrapper .shtreamlineShortsInner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap: 0 40px;
+}
+
+.shortsSectionWrapper .straemlineShortsMakingWrapper .shtreamlineShortsInner .StreamlineShortsColumn {
+    flex: 1;
+    border-radius: 9px;
+    background: #f2f5f9;
+    padding: 70px 48px;
+    border-radius: 20px;
+}
+
+.shortsSectionWrapper .straemlineShortsMakingWrapper .StreamlineShortsColumn .title {
+    color: #1b1a23;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0;
+    margin: 0 0 30px;
+}
+
+.shortsSectionWrapper .straemlineShortsMakingWrapper .StreamlineShortsColumn .description {
+    color: #1b1a23;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+
+/* Shorts Page Streamline shorts making CSS Are Close Here */
+/* Shorts Page AI-generated shorts CSS Are Start Here */
+.shortsSectionWrapper .aiGenerateShortsWrapper {
+    margin-top: 100px;
+    padding: 100px 0;
+    background-color: #f2f5f9;
+    text-align: center;
+}
+
+.shortsSectionWrapper .aiGenerateShortsWrapper .generateshortsheading {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.shortsSectionWrapper .aiGenerateShortsWrapper .aiGenerateShortsRow {
+    max-width: 825px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    grid-gap: 0 30px;
+    letter-spacing: 0;
+}
+
+.shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn {
+    border-radius: 20px;
+    background: #fff;
+    flex: 1;
+    padding: 32px 50px;
+    position: relative;
+}
+
+.shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn .planTitle {
+    color: #24282f;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 134.48%;
+}
+
+.shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn .price {
+    color: #24282f;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 134.48%;
+    margin: 12px 0 6px;
+}
+
+.shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn+.aiGeneratesColumn .regularPrice {
+    text-decoration: line-through;
+}
+
+.shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn .price .salesPrice {
+    color: #ff5c00;
+}
+
+.shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn .offMessage {
+    position: absolute;
+    top: -24px;
+    right: 0;
+    max-width: 132px;
+    height: 48px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #ff5c00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn .offMessage p {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn .shortsPerMonth {
+    color: #7d7d7d;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116%;
+    margin-bottom: 40px;
+    font-family: "SF Compact Display" !important;
+}
+
+.shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn .contactUsLink {
+    border-radius: 6px;
+    background: #3782f7;
+    width: 100%;
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 134.48%;
+    padding: 14px 0;
+    transition: all 0.5s ease;
+    font-family: "Noto Sans", sans-serif !important;
+}
+
+.shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn .contactUsLink:hover {
+    background: #0f6dec;
+}
+
+/* Shorts Page AI-generated shorts CSS Are Close Here */
+.shortsSectionWrapper *:not(.aiGenerateShortsRow *) {
+    font-family: Helvetica !important;
+}
+
+.shortsSectionWrapper .aiGenerateShortsRow * {
+    font-family: "Poppins", sans-serif !important;
+}
+
+/* Shorts Page FAQs CSS Are Start Here */
+.shortsSectionWrapper .faqWrapper {
+    margin-top: 100px;
+}
+
+.shortsSectionWrapper .faqWrapper .feature-faq {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 0 16px;
+}
+
+.shortsSectionWrapper .faqWrapper .feature-faq {
+    margin: 0 auto;
+}
+
+.shortsSectionWrapper .faqWrapper .feature-faq h4 {
+    margin: 0 0 32px;
+}
+
+.shortsSectionWrapper .faqWrapper .feature-faq .accordion-header h2 {
+    line-height: 26px;
+}
+
+.shortsSectionWrapper .faqWrapper .feature-faq .accordion-item .accordion-collapse .accordion-body p {
+    font-size: 16px;
+    max-width: 960px;
+}
+
+/* Shorts Page FAQs CSS Are Close Here */
+/* Shorts Page Free Sample Clips CSS Are Start Here */
+.shortsSectionWrapper .freeSapmleClipsWrapper {
+    margin-top: 100px;
+}
+
+.shortsSectionWrapper .freeSapmleClipsWrapper .freeSampleClipsInner {
+    border-radius: 20px;
+    background: #f2f5f9;
+    padding: 100px 0;
+}
+
+.shortsSectionWrapper .freeSapmleClipsWrapper .freeSampleHeading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.shortsSectionWrapper .freeSapmleClipsWrapper .formShortcode {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.shortsSectionWrapper .freeSapmleClipsWrapper .formShortcode .formInputFields .inputField input {
+    background: #fff;
+    border: 3px solid #ffffff !important;
+}
+
+.shortsSectionWrapper .formShortcode .formInputFields label#youtubeChannel-error {
+    color: #ff0033;
+    position: absolute;
+    bottom: -35px;
+    font-weight: 500;
+}
+
+/* Shorts Page Free Sample Clips CSS Are Close Here */
+/* Shorts Page Success Section CSS Are Close Here */
+.successSectionWrapper {
+    padding: 120px 0;
+}
+
+.successSectionWrapper .shorts-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.successSectionWrapper .success-headings_wrapper {
+    display: flex;
+    align-items: center;
+    grid-gap: 0 30px;
+}
+
+.successSectionWrapper .success-headings_wrapper .successLoader {
+    width: 100%;
+    height: 40px;
+    max-width: 40px;
+    border: 5px solid #787878;
+    border-top: 5px solid rgb(216, 216, 216);
+    border-radius: 50%;
+    animation: reload 1s infinite linear;
+}
+
+@keyframes reload {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+.successSectionWrapper .successSectionHeading h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60.5px;
+    margin: 0;
+}
+
+.successSectionWrapper .successSectionSubHead h4 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 8px 0 0;
+}
+
+.successSectionWrapper .successSectionContent {
+    border-radius: 8px;
+    background: #f1f2f4;
+    padding: 33px 68px;
+    margin-top: 30px;
+}
+
+.successSectionWrapper .successSectionContent p {
+    color: #1b1a23;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+}
+
+.successSectionWrapper .successSectionContent p:not(:last-child) {
+    margin: 0 0 18px;
+}
+
+/* Shorts Page Success Section CSS Are Close Here */
+
+.ssemble_image_skelton {
+    background-color: #e2e5e7;
+    background-image: linear-gradient(90deg,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0));
+    background-size: 40px 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    animation: shine 1s ease infinite;
+}
+
+/* Shorts Page Skeleton CSS Are Start Here */
+.shortsSekletonWrapper {
+    padding: 120px 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.shortsSekletonWrapper .shortsSkeleton {
+    background-color: #e2e5e7;
+    background-image: linear-gradient(90deg,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0));
+    background-size: 40px 100%;
+    background-repeat: no-repeat;
+    animation: shine 1s ease infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position: right -40px top 0;
+    }
+}
+
+.shortsSekletonWrapper .shortsSkeletonLabel {
+    width: 125px;
+    height: 18px;
+    border-radius: 4px;
+}
+
+.shortsSekletonWrapper .shortsSkeletonInput {
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    margin: 8px 0 30px;
+}
+
+.shortsSekletonWrapper .shortsSkeletonButton {
+    width: 200px;
+    height: 48px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.shortsSekletonWrapper .shortsSkeletonContent {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+/* Shorts Page Skeleton CSS Are Close Here */
+/* Shorts Maker Login Generate Shorts Section CSS Are Start Here */
+.loginGenerateShortsWrapper {
+    padding: 120px 0;
+}
+
+.loginGenerateShortsWrapper .loginGeneratorShortsContainer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.loginGenerateShortsWrapper .formShortcode label {
+    color: #1b1a23;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Helvetica !important;
+    line-height: 26px;
+}
+
+.loginGenerateShortsWrapper .formShortcode label.error {
+    color: red;
+    font-weight: 600;
+    margin: 0;
+}
+
+.loginGenerateShortsWrapper .formShortcode .formInputFields input.youtubeChannel::placeholder {
+    color: #c3c3c3;
+}
+
+.loginGenerateShortsWrapper .formShortcode .formInputFields input.youtubeChannel {
+    border-radius: 8px;
+    background: #f1f2f4;
+    outline: none !important;
+    border: 1px solid #f1f2f4;
+    padding: 0 14px;
+    display: block;
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "Noto Sans", sans-serif !important;
+}
+
+.loginGenerateShortsWrapper .formShortcode .submitField input[type="submit"] {
+    border-radius: 10px;
+    background: #3782f7;
+    width: 250px;
+    margin: 40px auto;
+    display: block;
+    height: 48px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    font-family: Helvetica !important;
+    transition: all 0.5s ease;
+    border-style: none;
+}
+
+.loginGenerateShortsWrapper .formShortcode .submitField input[type="submit"]:hover {
+    background: #0f6dec;
+}
+
+.loginGenerateShortsWrapper .loginGeneratorShortsContentBox .loginGeneratorContentBoxInner {
+    max-width: 425px;
+    margin: 0 auto;
+}
+
+.loginGenerateShortsWrapper .loginGeneratorShortsContentBox {
+    border-radius: 8px;
+    background: #f8f8f8;
+    padding: 20px 30px 30px;
+}
+
+.loginGenerateShortsWrapper .loginGeneratorShortsContentBox h6.generatorShorts {
+    color: #1b1a23;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Helvetica !important;
+    margin: 0;
+}
+
+.loginGenerateShortsWrapper .loginGeneratorShortsContentBox .shortsMakersTalkingVideos {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 0 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.loginGenerateShortsWrapper .loginGeneratorShortsContentBox .shortsMakersTalkingVideos .worksBestTalkingVideos {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.loginGenerateShortsWrapper .loginGeneratorShortsContentBox .shortsMakersTalkingVideos .worksBestTalkingVideos li {
+    color: #1b1a23;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Helvetica !important;
+}
+
+.loginGenerateShortsWrapper .loginGeneratorThumbnail.shortsChildContainer {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.loginGenerateShortsWrapper .shortsChildContainer {
+    max-width: 435px;
+    margin: 0 auto;
+}
+
+.loginGenerateShortsWrapper .loginGeneratorThumbnail figure {
+    margin: 0;
+}
+
+.loginGenerateShortsWrapper .loginGeneratorThumbnail figure figcaption {
+    color: #24282f;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.loginGenerateShortsWrapper .loginGeneratorThumbnail figure figcaption span {
+    color: #979797;
+}
+
+.loginGenerateShortsWrapper .loginProcessingTimeframe label,
+.loginGenerateShortsWrapper .loginPreferedShortsLength label {
+    color: #979797;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: "Poppins", sans-serif !important;
+    margin: 0;
+}
+
+.loginGenerateShortsWrapper .loginProcessingTimeframe .shortsTimeframe {
+    margin: 20px 0 20px;
+    position: relative;
+}
+
+.loginGenerateShortsWrapper .loginProcessingTimeframe .shortsTimeframe .sortsTimeFrameLine {
+    border-radius: 4px;
+    background: var(--MainColor, #3782f7);
+    height: 2px;
+    width: 100%;
+}
+
+.loginGenerateShortsWrapper .loginProcessingTimeframe .timeIncreaseDecrease {
+    width: 4px;
+    height: 18px;
+    border-radius: 2px;
+    background: #fff;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.loginGenerateShortsWrapper .loginProcessingTimeframe .shortsTimeFrameStart {
+    left: 0;
+}
+
+.loginGenerateShortsWrapper .loginProcessingTimeframe .shortsTimeFrameEnd {
+    right: 0;
+}
+
+.loginGenerateShortsWrapper .loginProcessingTimeframe .shortsTimeFrameTiming {
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginGenerateShortsWrapper .loginProcessingTimeframe .shortsTimeFrameTiming p.shortsTiming {
+    color: #979797;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif !important;
+    line-height: normal;
+}
+
+.loginGenerateShortsWrapper .loginPreferedShortsLength {
+    margin-top: 40px;
+}
+
+.loginGenerateShortsWrapper .loginPreferedShortsLength .preferredShortsLength {
+    display: flex;
+    margin: 12px 0 0;
+    padding: 0;
+    grid-gap: 4px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.loginGenerateShortsWrapper .loginPreferedShortsLength .preferredShortsLength .shortLength {
+    position: relative;
+}
+
+.loginGenerateShortsWrapper .loginPreferedShortsLength .preferredShortsLength .shortLength input[type="radio"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.loginGenerateShortsWrapper .loginPreferedShortsLength .preferredShortsLength .shortLength label {
+    border-radius: 9px;
+    padding: 9px 8px;
+    background: #f0f1f2;
+    color: #636363;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    border-style: none;
+}
+
+.loginGenerateShortsWrapper .loginPreferedShortsLength .preferredShortsLength .shortLength input[type="radio"]:checked+label,
+.loginGenerateShortsWrapper .loginPreferedShortsLength .preferredShortsLength .shortLength input[type="radio"]:hover+label {
+    background: #f0f6ff;
+    color: #3782f7;
+}
+
+/* Shorts Maker Login Generate Shorts Section CSS Are Close Here */
+/* AI Analyzing Your Video Success CSS Are Start Here */
+.shortsAIAnalyzingSuccessWrapper {
+    padding: 120px 0;
+}
+
+.shortsAIAnalyzingSuccessWrapper .shortsAiAnalyzingContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.shortsAIAnalyzingSuccessWrapper .shortsAiHeading {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Helvetica !important;
+    line-height: 60.5px;
+    margin: 0;
+}
+
+.shortsAIAnalyzingSuccessWrapper .shortsAiSubHeading {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: Helvetica !important;
+    margin: 8px 0 50px;
+}
+
+.shortsAIAnalyzingSuccessWrapper .fetchingVideo {
+    max-width: 435px;
+    margin: 48px auto 0;
+}
+
+.shortsAIAnalyzingSuccessWrapper .fetchingVideo input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    padding: 0;
+    border-style: none !important;
+}
+
+.shortsAIAnalyzingSuccessWrapper .fetchingVideo input[type="range"]::-webkit-slider-runnable-track {
+    height: 6px;
+    background: #ecf3ff;
+}
+
+.shortsAIAnalyzingSuccessWrapper .fetchingVideo input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: #1679ff;
+    border: 1px solid #1679ff;
+    box-shadow: -407px 0 0 400px #1679ff;
+}
+
+.shortsAIAnalyzingSuccessWrapper .fetchingVideo output,
+.shortsAIAnalyzingSuccessWrapper .fetchingVideo .fetchingVideoContent {
+    color: #979797;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: "Poppins", sans-serif !important;
+    margin-top: 16px;
+    padding: 0;
+}
+
+.shortsAIAnalyzingSuccessWrapper .fetchingVideo .fetchingVideoContent {
+    margin-top: 45px;
+}
+
+.shortsAIAnalyzingSuccessWrapper .fetchingVideo .shortsAiCancel {
+    border-radius: 10px;
+    background: #f1f2f4;
+    width: 271px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    margin: 74px auto 0;
+    color: #626262;
+    text-align: center;
+    font-family: Helvetica !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    transition: all 1s ease;
+}
+
+.shortsAIAnalyzingSuccessWrapper .fetchingVideo .shortsAiCancel:hover {
+    background: #1679ff;
+    color: #fff;
+}
+
+/* AI Analyzing Your Video Success CSS Are Close Here */
+/* Shorts Popup Section CSS Start Here */
+.shortsMakerPopupWrapper .fade.ss_modal.modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0 !important;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal::-webkit-scrollbar {
+    display: none;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .pricing-tab-card {
+    background-color: #f8f8f8;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .pricing-tab-card.pro {
+    background-color: #f0f6ff !important;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .modal-dialog {
+    max-width: 875px;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content {
+    max-width: 100%;
+    margin: 0;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .tab-row {
+    margin: 0;
+    grid-gap: 0 16px;
+    flex-wrap: wrap;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .shortsPopRow {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding: 0 20px;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .tab-row>* {
+    width: calc(50% - 16px);
+    flex: none;
+    margin: 0;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .nav.nav-tabs {
+    margin: 0 auto 30px;
+    max-width: 175px;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .nav.nav-tabs li.nav-item button {
+    padding: 8px 10px;
+}
+
+.shortsMakerPopupWrapper .ModalWrapper .pricing-tab-card.free {
+    display: block !important;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .nav.nav-tabs li.nav-item .save-percent {
+    position: absolute;
+    top: -24px;
+    right: 0;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .pricingShortsClipWrapper img {
+    max-width: 82px;
+    margin-top: 60px;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .pricingShortsClipWrapper .shortsClipHeading {
+    margin: 30px 0 56px;
+    font-family: "SF Compact Display" !important;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .pricingShortsClipWrapper .shortsClipContent {
+    color: #7d7d7d;
+    font-family: "SF Compact Display" !important;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138%;
+    width: 80%;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .nav.nav-tabs li.nav-item .save-percent span {
+    color: #fe8000;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif !important;
+    line-height: normal;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .planLevelWrapper .pricing-list {
+    max-width: 100%;
+}
+
+.shortsSeeFeature {
+    color: var(--Grey7, #636363);
+    text-align: center;
+    font-family: "SF Compact Display" !important;
+    font-family: SF Compact;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 457;
+    line-height: 134.48%;
+    margin: 15px 0;
+}
+
+.shortsMakerPopupWrapper .fade.ss_modal.modal .modal-dialog .modal-content .pricing-heading h2 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.shortsMakerPopupWrapper .pricing-tab-card .pricing-btn a.button {
+    font-weight: 400;
+}
+
+.shortsMakerPopupWrapper .pricing-tab-card.free .pricing-btn a.button {
+    background-color: #e2e3e4;
+    color: #fff;
+}
+
+.shortsMakerPopupWrapper .pricingPriceContent {
+    min-height: 95px;
+}
+
+/* Shorts Popup Section CSS Close Here */
+/* Shorts Page Responsive CSS Are Start Here */
+@media (min-width: 768px) {
+    .shortsSectionWrapper .shorts-container {
+        max-width: 100%;
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .shortsSectionWrapper .shorts-container {
+        max-width: 1140px;
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .shortsSectionWrapper .HeroSectionWrapper .shortsHeroInnerWrapper .left_section h1,
+    .shortsSectionWrapper h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .shortsSectionWrapper .underHeroWrapper .underHeroheading h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .shortsSectionWrapper .multipleVideosThumbnailWrapper {
+        padding: 60px 0;
+        margin-top: 60px;
+    }
+
+    .shortsSectionWrapper .multipleVideosThumbnailWrapper .vidoesThumbWrapper .videoThumbContent h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .shortsSectionWrapper .straemlineShortsMakingWrapper .shtreamlineShortsInner .StreamlineShortsColumn {
+        padding: 50px 25px;
+    }
+
+    .shortsSectionWrapper .straemlineShortsMakingWrapper .StreamlineShortsColumn .title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .shortsSectionWrapper .aiGenerateShortsWrapper {
+        margin-top: 60px;
+        padding: 60px 0;
+    }
+
+    .shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn .planTitle {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn .price {
+        font-size: 26px;
+    }
+
+    .shortsSectionWrapper .faqWrapper,
+    .shortsSectionWrapper .freeSapmleClipsWrapper {
+        margin-top: 60px;
+    }
+
+    .shortsSectionWrapper .freeSapmleClipsWrapper .freeSampleClipsInner {
+        padding: 60px 0;
+    }
+
+    .successSectionWrapper .successSectionHeading h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .successSectionWrapper .successSectionSubHead h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 991px) {
+    .shortsSectionWrapper .HeroSectionWrapper .shortsHeroInnerWrapper {
+        grid-gap: 30px;
+    }
+
+    .shortsSectionWrapper .HeroSectionWrapper .shortsHeroInnerWrapper .left_section h1,
+    .shortsSectionWrapper h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .shortsSectionWrapper .formShortcode .formInputFields .submitField {
+        max-width: 135px;
+    }
+
+    .shortsSectionWrapper .formShortcode .formInputFields .submitField input[type="submit"] {
+        font-size: 14px;
+    }
+
+    .shortsSectionWrapper .underHeroWrapper .underHeroheading h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .shortsSectionWrapper .underHeroWrapper .underHeroImgGroup {
+        grid-gap: 20px;
+    }
+
+    .shortsSectionWrapper .multipleVideosThumbnailWrapper .vidoesThumbWrapper .videoThumbContent h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .shortsSectionWrapper .multipleVideosThumbnailWrapper .vidoesThumbWrapper .videoThumbContent p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .shortsSectionWrapper .straemlineShortsMakingWrapper .shtreamlineShortsInner {
+        grid-gap: 0 20px;
+    }
+
+    .shortsSectionWrapper .straemlineShortsMakingWrapper .StreamlineShortsColumn .title {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 0 15px;
+    }
+
+    .shortsSectionWrapper .straemlineShortsMakingWrapper .shtreamlineShortsInner .StreamlineShortsColumn {
+        padding: 30px 15px;
+    }
+
+    .shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn {
+        padding: 30px;
+    }
+
+    .shortsSectionWrapper .freeSapmleClipsWrapper .formShortcode {
+        max-width: 500px;
+    }
+
+    .successSectionWrapper .successSectionHeading h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .successSectionWrapper .successSectionSubHead h4 {
+        font-size: 18px;
+    }
+
+    .successSectionWrapper .successSectionContent {
+        padding: 30px;
+    }
+
+    .shortsSectionWrapper .underHeroWrapper .underHeroImgGroup .underHeroImage {
+        width: calc(33.3% - 20px);
+    }
+
+    .shortsMakerPopupWrapper .fade.ss_modal.modal .shortsPopRow {
+        grid-template-columns: 1fr;
+        grid-gap: 40px 0;
+        padding: 0;
+    }
+
+    .shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .pricingShortsClipWrapper img {
+        margin-top: 0;
+    }
+
+    .shortsMakerPopupWrapper .pricingShortsClipWrapper {
+        text-align: center;
+    }
+
+    .shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .pricingShortsClipWrapper .shortsClipHeading {
+        margin: 10px 0 20px;
+    }
+
+    .shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content {
+        max-width: 100%;
+        margin: 0 !important;
+    }
+
+    .shortsMakerPopupWrapper .fade.ss_modal.modal .modal-dialog .modal-content {
+        padding: 30px 10px 20px;
+    }
+
+    .shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .pricingShortsClipWrapper .shortsClipContent {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .planLevelWrapper {
+        border-radius: 30px;
+        padding: 30px;
+    }
+
+    .planLevelWrapper h3 {
+        font-size: 26px;
+    }
+
+    .shortsSectionWrapper .HeroSectionWrapper .shortsHeroInnerWrapper .left_section {
+        flex: none;
+    }
+
+    .shortsSectionWrapper .HeroSectionWrapper .shortsHeroInnerWrapper .right_section {
+        width: 100%;
+    }
+
+    .shortsSectionWrapper .underHeroWrapper .underHeroImgGroup .underHeroImage {
+        width: calc(50% - 20px);
+    }
+
+    .shortsSectionWrapper .multipleVideosThumbnailWrapper .vidoesThumbWrapper {
+        grid-gap: 30px;
+    }
+
+    .shortsSectionWrapper .straemlineShortsMakingWrapper .shtreamlineShortsInner {
+        grid-gap: 20px;
+    }
+
+    .shortsSectionWrapper .straemlineShortsMakingWrapper .shtreamlineShortsInner .StreamlineShortsColumn {
+        flex: none;
+        width: calc(50% - 20px);
+    }
+
+    .shortsSectionWrapper *:not(.aiGenerateShortsRow *) {
+        width: 100%;
+    }
+
+    .loginGenerateShortsWrapper .loginGeneratorShortsContainer {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .shortsAIAnalyzingSuccessWrapper .shortsAiAnalyzingContainer {
+        max-width: 480px;
+    }
+
+    .shortsAIAnalyzingSuccessWrapper .shortsAiHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 575px) {
+    .loginGenerateShortsWrapper .loginGeneratorShortsContentBox {
+        padding: 20px;
+    }
+
+    .shortsSectionWrapper .underHeroWrapper .underHeroImgGroup .underHeroImage {
+        width: 100%;
+    }
+
+    .shortsSectionWrapper .multipleVideosThumbnailWrapper .vidoesThumbWrapper>* {
+        flex: none;
+    }
+
+    .shortsSectionWrapper .straemlineShortsMakingWrapper .shtreamlineShortsInner .StreamlineShortsColumn {
+        width: 100%;
+    }
+
+    .shortsSectionWrapper .aiGenerateShortsWrapper .aiGenerateShortsRow {
+        flex-wrap: wrap;
+        grid-gap: 60px;
+    }
+
+    .shortsSectionWrapper .aiGenerateShortsWrapper .aiGeneratesColumn {
+        flex: none;
+        width: 100%;
+    }
+
+    .shortsSectionWrapper .formShortcode .formInputFields .inputField {
+        flex: none;
+    }
+
+    .page-template-template-shorts header#masthead div#site-logo img {
+        max-width: 200px;
+    }
+
+    .page-template-template-shorts header#masthead {
+        align-items: center;
+    }
+
+    .shortsSectionWrapper .freeSapmleClipsWrapper .freeSampleClipsInner {
+        padding: 30px;
+    }
+
+    .shortsSectionWrapper .formShortcode .formInputFields .inputField input {
+        padding: 0 140px 0 15px;
+    }
+
+    .shortsSectionWrapper .faqWrapper .feature-faq h4 {
+        margin: 0;
+    }
+
+    .loginGenerateShortsWrapper .loginGeneratorShortsContainer {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+
+    .loginGenerateShortsWrapper .loginGeneratorShortsContentBox h6.generatorShorts {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .loginGenerateShortsWrapper .loginGeneratorShortsContentBox .shortsMakersTalkingVideos .worksBestTalkingVideos li {
+        font-size: 14px;
+    }
+
+    .loginGenerateShortsWrapper .loginGeneratorShortsContentBox .shortsMakersTalkingVideos .worksBestTalkingVideos {
+        flex: none;
+        width: 100%;
+    }
+
+    .loginGenerateShortsWrapper .loginGeneratorShortsContentBox .shortsMakersTalkingVideos {
+        grid-gap: 10px;
+        margin-top: 10px;
+    }
+
+    .shortsAIAnalyzingSuccessWrapper .shortsAiAnalyzingContainer {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+
+    .shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .tab-row>* {
+        width: 100%;
+    }
+
+    .shortsMakerPopupWrapper .fade.ss_modal.modal .pricing-tab-content .tab-row {
+        grid-gap: 16px 0;
+    }
+
+    .shortsMakerPopupWrapper .pricingPriceContent {
+        min-height: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .shortsSectionWrapper .formShortcode .formInputFields .submitField {
+        position: static;
+        max-width: 100%;
+        transform: translate(0);
+        margin-top: 20px;
+    }
+
+    .shortsSectionWrapper .formShortcode .formInputFields .inputField input {
+        padding: 0 15px;
+    }
+
+    .shortsSectionWrapper .formShortcode .formInputFields label#youtubeChannel-error {
+        position: static;
+    }
+
+    .successSectionWrapper .success-headings_wrapper {
+        grid-gap: 20px 0;
+        flex-wrap: wrap;
+    }
+}
+
+/* Shorts Page Responsive CSS Are Close Here */
+/* Shorts Page CSS Are Close Here */
+
+/* New css */
+.draftSection span {
+    font-size: 10px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo-container>img {
+    width: 17%;
+    flex: 0 0 auto;
+    height: 100px;
+    object-fit: contain;
+}
+
+.partner_logos_warpper {
+    margin-top: 40px;
+}
+
+.grey_bg {
+    background-color: #f2f5f9;
+}
+
+.shortsSectionWrapper>section {
+    padding: 80px 0;
+}
+
+.shortsSectionWrapper .heroSection {
+    padding-top: 15px;
+}
+
+.multipleVideosThumbInner {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 30px 20px;
+    margin-top: 40px;
+}
+
+.multipleVideosThumbInner>div {
+    flex: 0 0 auto;
+    width: calc(50% - 14px);
+}
+
+.videosThumbImage {
+    background-color: #000;
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 16/10.5;
+    padding: 5px;
+}
+
+.videosThumbImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.videoThumbContent h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    color: #1b1a23;
+    letter-spacing: 0px !important;
+}
+
+.pefectToolsSection .FeedbackSectionWrapper {
+    text-align: center;
+}
+
+.pefectToolsSection {
+    text-align: center;
+}
+
+.pefectToolsSection .PerfectToolsHeading p {
+    max-width: 824px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.FeedbackContentRepeat {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+}
+
+.FeedbackContentRepeat>div {
+    flex: 0 0 auto;
+    width: calc(50% - 20px);
+    text-align: left;
+}
+
+.FeedbackContentRepeat h3 {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.FeedbackContentRepeat p {
+    font-size: 18.6px;
+    line-height: 1.6;
+}
+
+.pricing-sec {
+    background-color: #ecf2fe;
+    margin-top: 80px;
+    padding: 80px 50px;
+    border-radius: 20px;
+}
+
+.pricing-sec h2 {
+    text-align: center;
+}
+
+.pricing-sec .pricing-tab-content .tab-row .pricing-tab-card {
+    background-color: #fff !important;
+}
+
+.pricing-sec .pricing-tab-content.ssembleYtDownloaderPrice {
+    margin-bottom: 0 !important;
+}
+
+.shortsSectionWrapper .freeSapmleClipsWrapper {
+    margin-top: 0;
+}
+
+.shortsSectionWrapper .freeSapmleClipsWrapper .freeSampleClipsInner {
+    padding: 0;
+}
+
+.gradiant_bg {
+    background: linear-gradient(0, #f2f5f9 0.06%, rgba(242, 245, 249, 0) 88.95%);
+}
+
+.aishorts-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aishorts-row:nth-child(2n + 1) {
+    flex-direction: row-reverse;
+}
+
+.aishorts-row>div {
+    padding: 0 15px;
+    text-align: left;
+    width: 50%;
+    flex: 0 0 auto;
+}
+
+.aishorts-row .aishorts-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    letter-spacing: 0;
+}
+
+.aishorts-row .aishorts-img img {
+    display: inline-block;
+    max-width: 450px;
+    height: auto;
+}
+
+.aishorts-row:nth-child(2) {
+    margin-bottom: 60px;
+}
+
+.aishorts-sec h2 {
+    margin-bottom: 100px;
+}
+
+.aishorts-sec {
+    padding: 110px 0 0;
+}
+
+.aishorts-row .aishorts-img img {
+    max-width: 440px;
+    width: 100%;
+}
+
+.shortsSectionWrapper .aishorts-content p {
+    margin-bottom: 0;
+}
+
+.TutorialSectionWrapper {
+    text-align: center;
+}
+
+.TutorialSectionWrapper .tutorialIframe iframe {
+    width: 100%;
+    max-width: 962px;
+    aspect-ratio: 16/9;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+
+.aishorts-row:nth-child(2n + 1)>div.aishorts-img {
+    text-align: end;
+}
+
+.FeedbackSectionWrapper .FeedbackHeading {
+    margin-bottom: -70px;
+    margin-top: 45px;
+}
+
+.feedback-sec {
+    overflow: hidden;
+}
+
+.feedback-sec .FeedbackThumbInner {
+    margin-left: -9%;
+    margin-right: -9%;
+    width: auto;
+}
+
+.gradiant_bg {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.PerfectToolsHeading p {
+    font-size: 16px;
+}
+
+.pricing-tab-content .nav-tabs {
+    border-radius: 24px;
+    background-color: #fafafa;
+}
+
+.pricing-tab-content .nav-tabs .nav-item button {
+    font-weight: 400;
+}
+
+.pricing-tab-content .nav-tabs .nav-item button.tab.active {
+    font-weight: 500;
+    border: 1px solid #ecf2fe;
+    box-shadow: -1px 3px 6px rgb(236, 242, 254);
+    border-radius: 27px;
+    padding: 12px 63px;
+}
+
+.shortsSectionWrapper .formShortcode {
+    padding-right: 31px;
+}
+
+@media (max-width: 991px) {
+    .TutorialSectionWrapper .tutorialIframe iframe {
+        margin-top: 30px;
+    }
+
+    .videoThumbContent h3 {
+        font-size: 20px;
+    }
+
+    .shortsSectionWrapper .multipleVideosThumbnailWrapper {
+        padding-bottom: 0;
+    }
+
+    .FeedbackContentRepeat h3 {
+        font-size: 20px;
+    }
+
+    .FeedbackContentRepeat p {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+    .aishorts-sec {
+        padding: 70px 0 0;
+    }
+
+    .aishorts-sec h2 {
+        margin-bottom: 60px;
+    }
+
+    .shortsSectionWrapper .straemlineShortsMakingWrapper {
+        padding-top: 50px;
+    }
+
+    .aishorts-row .aishorts-content h3 {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .shortsSectionWrapper p {
+        margin-top: 15px;
+    }
+
+    .shortsSectionWrapper .straemlineShortsMakingWrapper .StreamlineShortsColumn .description {
+        font-size: 16px;
+    }
+
+    .pricing-sec {
+        padding: 36px 34px;
+    }
+
+    .shortsSectionWrapper>section {
+        padding: 60px 0;
+    }
+
+    .shortsSectionWrapper .straemlineShortsMakingWrapper .shtreamlineShortsInner .StreamlineShortsColumn .description {
+        margin-bottom: 0;
+    }
+
+    .gradiant_bg {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .FeedbackSectionWrapper .FeedbackHeading {
+        margin-bottom: -48px;
+        margin-top: 31px;
+    }
+}
+
+@media (max-width: 767px) {
+    .FeedbackSectionWrapper .FeedbackHeading {
+        margin-bottom: -20px;
+        margin-top: 30px;
+    }
+
+    .logo-container>img {
+        width: 33% !important;
+    }
+
+    .shortsSectionWrapper>section {
+        padding: 50px 0;
+    }
+
+    .shortsSectionWrapper h2 {
+        font-size: 28px;
+    }
+
+    .multipleVideosThumbInner {
+        margin-top: 20px;
+    }
+
+    .shortsSectionWrapper .multipleVideosThumbnailWrapper {
+        padding-top: 0;
+    }
+
+    .FeedbackContentRepeat p {
+        margin-bottom: 0;
+    }
+
+    .aishorts-sec {
+        padding: 50px 0 0;
+    }
+
+    .aishorts-sec h2 {
+        margin-bottom: 20px;
+    }
+
+    .aishorts-content {
+        margin-top: 21px;
+    }
+
+    .aishorts-row .aishorts-content h3 {
+        margin-bottom: 0;
+    }
+
+    .aishorts-row .aishorts-content h3+p {
+        margin-top: 7px;
+    }
+
+    .aishorts-row:not(:last-child),
+    .aishorts-row:nth-child(2) {
+        margin-bottom: 41px;
+    }
+
+    .pricing-sec {
+        margin-top: 20px;
+    }
 }

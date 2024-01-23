@@ -327,7 +327,7 @@ const AuthSection = ({ ShortsMakerField }) => {
                         </button> */}
 
                         <Link to="/">
-                            <button className='btn btn-lg btn-secondary mt-2'>Go back to Home</button>
+                            <button className='btn btn-lg btn-link mt-2'>Go back to Home</button>
                         </Link>
                     </div>
                 </div>
